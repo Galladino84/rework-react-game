@@ -1,0 +1,33 @@
+// 🎨 Palette colori
+$primary-color: #560bad;  // Colore primario (viola scuro)
+$secondary-color: #3a0ca3; // Colore secondario (viola acceso)
+$background-color: #1a1a2e; // Sfondo principale
+$text-color: #e0e0e0; // Testo principale
+$highlight-color: #f72585; // Colore per gli highlight (rosa acceso)
+$border-color: #9d4edd; // Bordo per elementi
+$button-hover: darken($primary-color, 10%);
+$button-disabled: lighten($primary-color, 20%);
+
+// 📜 Font
+$font-family: "Gothic A1", sans-serif;
+$font-size-base: 16px;
+$font-size-large: 20px;
+$font-size-small: 14px;
+
+// 📏 Spaziature e dimensioni
+$spacing-unit: 8px;
+$padding-base: 12px;
+$border-radius: 5px;
+
+// 🌙 Effetto scuro
+$shadow-light: rgba(255, 255, 255, 0.1);
+$shadow-dark: rgba(0, 0, 0, 0.5);
+
+// 🖼️ Immagini di sfondo
+$background-image: url("/assets/backgrounds/goth_bg.jpg");
+$card-bg: rgba(255, 255, 255, 0.05);
+$modal-bg: rgba(0, 0, 0, 0.8);
+
+// ✨ Effetti e transizioni
+$transition-speed: 0.3s;
+$button-transition: all 0.2s ease-in-out;

@@ -1,0 +1,11 @@
+@import "mixins";
+@import "globals";
+@import "buttons";
+@import "layout";
+@import "modals";
+
+// importo tutti i temi
+@import "themes/goth/style.scss";
+@import "themes/metal/style.scss";
+@import "themes/nerd/style.scss";
+@import "themes/tabboz/style.scss";

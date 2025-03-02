@@ -1,0 +1,19 @@
+@import "variables";
+@import "layout";
+@import "buttons";
+
+// Stili specifici per il tema Goth
+body.theme_goth {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  font-family: "Gothic A1", sans-serif;
+}
+
+button {
+  background-color: #560bad;
+  color: white;
+}
+
+.header {
+  border-bottom: 2px solid #560bad;
+}
